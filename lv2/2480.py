@@ -1,4 +1,4 @@
-num = list(map(int, input().split(" ")))
+num = list(map(int, input().split()))
 original = list(set(num))  # 중복 제거
 left = num[:]  # shallow copy
 for item in original:
