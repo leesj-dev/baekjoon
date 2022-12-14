@@ -1,4 +1,4 @@
-def val(a, b):  # recursive function
+def val(a, b):  # python3로 시간초과 남, pypy3 사용할 것
     if a == 0:
         return b
     elif b == 1:
